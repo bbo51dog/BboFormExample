@@ -1,0 +1,7 @@
+name: BboFormExample
+author: bbo51dog
+api: 3.18.0
+main: bbo51dog\bboformexample\Main
+version: 1.0.0
+depend:
+  - BboForm
