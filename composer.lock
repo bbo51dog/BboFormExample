@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "acad5ea0ebb54b362318d2f5498ca847",
+    "content-hash": "97ae3c9457ae49246c658245852926ea",
     "packages": [],
     "packages-dev": [
         {
@@ -64,15 +64,15 @@
         },
         {
             "name": "bbo51dog/bboform",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bbo51dog/BboForm.git",
-                "reference": "db9baf525ee055577db95e4861023cc69b267ce7"
+                "reference": "e3d8757887ed173d975d2aefb0994cf832db251c"
             },
             "require": {
                 "ext-json": "*",
-                "php": "^7.3"
+                "php": "^7.3 || ^8.0"
             },
             "require-dev": {
                 "pocketmine/pocketmine-mp": "^3.18.0"
@@ -89,7 +89,7 @@
                 "MIT"
             ],
             "description": "Form API for PMMP",
-            "time": "2021-04-27T13:50:51+00:00"
+            "time": "2021-04-28T15:42:16+00:00"
         },
         {
             "name": "pocketmine/binaryutils",

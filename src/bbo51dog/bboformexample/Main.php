@@ -29,7 +29,7 @@ class Main extends PluginBase implements Listener {
         $form = (new ClosureCustomForm(function (Player $player, CustomForm $form) use ($nameInput) {
             $welcomeForm = (new SimpleForm())
                 ->setText("Welcome to our server, {$nameInput->getValue()}!!\n")
-                ->addButton(new ClosureButton("Done", null, function (Player $player, Button $button) {
+                ->addElement(new ClosureButton("Done", null, function (Player $player, Button $button) {
                     $player->sendMessage("Please enjoy!");
                 }));
             $player->sendForm($welcomeForm);
