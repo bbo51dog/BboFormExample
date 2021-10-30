@@ -3,11 +3,11 @@
     "description": "Example of BboForm",
     "license": "MIT",
     "require": {
-        "php": "^7.3"
+        "php": "8.*"
     },
     "require-dev": {
         "pocketmine/pocketmine-mp": "^3.18.0",
-        "bbo51dog/bboform": "1.1.0"
+        "bbo51dog/bboform": "1.2.0"
     },
     "repositories": {
         "pocketmine/pocketmine-mp": {

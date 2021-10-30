@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "97ae3c9457ae49246c658245852926ea",
+    "content-hash": "d688cfede97ab76316122156f89fa6dd",
     "packages": [],
     "packages-dev": [
         {
@@ -64,11 +64,11 @@
         },
         {
             "name": "bbo51dog/bboform",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bbo51dog/BboForm.git",
-                "reference": "e3d8757887ed173d975d2aefb0994cf832db251c"
+                "reference": "ea9b156fec81f7d163428941cbf019ecffd42f59"
             },
             "require": {
                 "ext-json": "*",
@@ -89,7 +89,7 @@
                 "MIT"
             ],
             "description": "Form API for PMMP",
-            "time": "2021-04-28T15:42:16+00:00"
+            "time": "2021-10-30T17:30:45+00:00"
         },
         {
             "name": "pocketmine/binaryutils",
@@ -395,11 +395,11 @@
         },
         {
             "name": "pocketmine/pocketmine-mp",
-            "version": "3.19.1",
+            "version": "3.25.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pmmp/PocketMine-MP.git",
-                "reference": "a7cd0810020af15fb3d79127c77cf576085cd4cc"
+                "reference": "a8d5e8c5f6dc33dc697213de60694590b263ff44"
             },
             "require": {
                 "adhocore/json-comment": "^1.1",
@@ -421,7 +421,7 @@
                 "ext-yaml": ">=2.0.0",
                 "ext-zip": "*",
                 "ext-zlib": ">=1.2.11",
-                "php": "^7.3 || ^8.0",
+                "php": "^8.0",
                 "php-64bit": "*",
                 "pocketmine/binaryutils": "^0.1.9",
                 "pocketmine/callback-validator": "^1.0.2",
@@ -435,7 +435,7 @@
                 "pocketmine/spl": "^0.4.0"
             },
             "require-dev": {
-                "phpstan/phpstan": "0.12.84",
+                "phpstan/phpstan": "0.12.99",
                 "phpstan/phpstan-phpunit": "^0.12.6",
                 "phpstan/phpstan-strict-rules": "^0.12.2",
                 "phpunit/phpunit": "^9.2"
@@ -463,16 +463,16 @@
                     "@php -dphar.readonly=0 tests/plugins/DevTools/src/DevTools/ConsoleScript.php --make tests/plugins/DevTools --out plugins/DevTools.phar"
                 ],
                 "make-server": [
-                    "@composer install --no-dev --classmap-authoritative",
+                    "@composer install --no-dev --classmap-authoritative --ignore-platform-reqs",
                     "@php -dphar.readonly=0 build/server-phar.php"
                 ]
             },
             "license": [
                 "LGPL-3.0"
             ],
-            "description": "A server software for Minecraft: Pocket Edition written in PHP",
+            "description": "A server software for Minecraft: Bedrock Edition written in PHP",
             "homepage": "https://pmmp.io",
-            "time": "2021-04-25T19:34:13+00:00"
+            "time": "2021-10-29T21:23:22+00:00"
         },
         {
             "name": "pocketmine/raklib",
@@ -604,8 +604,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.3"
+        "php": "8.*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }

@@ -35,12 +35,14 @@ class Main extends PluginBase implements Listener {
             $player->sendForm($welcomeForm);
         }))
             ->setTitle("Example Form")
-            ->addElement(new Label("This is the example form!!"))
-            ->addElement($nameInput)
-            ->addElement(new Slider("How old are you?", 0, 100, 18))
-            ->addElement(new StepSlider("Choose your gender", ["Male", "Female", "Others"], 2))
-            ->addElement(new Dropdown("Where are you from?", ["Japan", "U.S.", "Others"]))
-            ->addElement(new Toggle("Do you agree to the Terms of Use?"));
+            ->addElements(
+                new Label("This is the example form!!"),
+                $nameInput,
+                new Slider("How old are you?", 0, 100, 18),
+                new StepSlider("Choose your gender", ["Male", "Female", "Others"], 2),
+                new Dropdown("Where are you from?", ["Japan", "U.S.", "Others"]),
+                new Toggle("Do you agree to the Terms of Use?"),
+            );
         $event->getPlayer()->sendForm($form);
     }
 }
