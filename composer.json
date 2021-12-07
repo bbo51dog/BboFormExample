@@ -2,18 +2,15 @@
     "name": "bbo51dog/bboformexample",
     "description": "Example of BboForm",
     "license": "MIT",
+    "minimum-stability": "dev",
     "require": {
         "php": "8.*"
     },
     "require-dev": {
-        "pocketmine/pocketmine-mp": "^3.18.0",
-        "bbo51dog/bboform": "1.2.0"
+        "pocketmine/pocketmine-mp": "4.*",
+        "bbo51dog/bboform": "2.0.0"
     },
     "repositories": {
-        "pocketmine/pocketmine-mp": {
-            "type": "git",
-            "url": "https://github.com/pmmp/PocketMine-MP.git"
-        },
         "bbo51dog/bboform": {
             "type": "git",
             "url": "https://github.com/bbo51dog/BboForm.git"
